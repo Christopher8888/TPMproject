@@ -1,17 +1,18 @@
 git
 
+
 nav ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    height: 50px;
-    left: 0px;
-    top: 0px;
+    
     background-color: rgba(0, 0, 0, 0.15);
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    position: sticky;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    height: 200px;
+    width: 100%;
+     
 }
 
 nav li a {
@@ -28,17 +29,111 @@ nav li .home {
    color: #F6C214;
 }
 
-.homepage {
-    background-image: url('./picture/page1.jpg');
-   background-size: cover;
-   background-repeat: no-repeat;
-   min-height: 100vh;
- 
-}
+
 nav .logo img {
     display: inline;
     width: 50px;
     float: left;
     background-color:  rgba(0, 0, 0, 0.15);
     padding: 0px 0px 0px 20px;
+}
+
+/* section 1 */
+
+.homepage {
+    background-image: url('picture/page1.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   min-height: 100vh;
+ 
+}
+
+.page-content  img{
+    
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    padding: 300px 300px 0px 400px;
+    margin: 0px;
+    align-content: center;
+    align-items: center;
+
+
+}
+
+.content1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    color:#F6C214;
+    padding: 0px 300px 0px 250px;
+    margin: 0px;
+    
+}
+
+.content2 {
+    font-family: Monserrat;
+    font-style: normal;
+    font-size: 36px;
+    color:  #FFFFFF;
+    padding: 0px 300px 0px 260px;
+    margin: 0px;
+}
+
+/* section2 */
+
+.aboutus {
+    background-image: url('picture/page2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+
+}
+
+
+.page2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    color:#F6C214;
+   
+    margin: 0px;
+}
+
+.page2 img{
+    width: 20%;
+  
+}
+
+.content {
+    font-family: Monserrat;
+    font-style: normal;
+    font-size: 36px;
+   text-align: center;
+    color:  #FFFFFF;
+}
+
+.Ourwork{
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title2{
+    font-family: Montserrat;
+    font-style: bold;
+    font-weight: bold;
+    font-size: 72px;
+    color:#F6C214;
 }
